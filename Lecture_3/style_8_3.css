@@ -1,0 +1,23 @@
+﻿table { 
+	width: 50%; /*Ширина таблиці*/
+	border-spacing: 0; /*Відстань між комірками*/
+	text-align: center; /*вирівнювання в комірках*/
+}
+	tr:nth-child(2n) { /*аналог even*/
+	background: #EED5D2; /*фон*/
+}
+	tr:nth-child(2n+1) { /*аналог odd*/
+	background: #1E90FF; /*фон*/
+}
+	tr:nth-child(1) { /*верх*/
+	font-size: 16pt; /*розмір шришту*/
+	background: #FFD700; /*фон*/
+	color: #9932CC; /*текст*/
+	text-align: left; /*вирівнювання в комірці*/
+}
+	tr:nth-child(18) { /*низ*/
+	font-size: 8pt; /*розмір шришту*/
+	background: #FFD700; /*фон*/
+	color: #9932CC; /*текст*/
+	text-align: right; /*вирівнювання в комірці*/
+}

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset "UTF-8">
+	<title>task10</title>
+	<link rel="stylesheet" type="text/css" href="style_10.css">
+</head>
+<body>
+
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+
+	<form action="task5.html" method="get">
+		<p>
+			<input name="name" required placeholder="Імя"> &nbsp <input name="surname" required placeholder="Прізвище">
+		</p>
+		<p>
+			<input name="job" placeholder="Місце роботи"> &nbsp <b>Посада:</b>
+			<select name="Posada">
+				<option value="Rak">Рак</option>
+				<option value="Donate">Донатор-нагинатор</option>
+				<option value="Daddy">Папік</option>
+			<select>
+		</p>
+		<p>
+			<i><u><b>Ваша стать</b></u></i><br>
+			<input type="radio" name="sex" value="male">Чоловіча
+			<input type="radio" name="sex" value="female">Жіноча
+			<input type="radio" name="sex" value="doxtor">Що таке стать?
+		</p>
+		<p>
+			Про себе: <br>
+			<textarea name="comment" placeholder="Про себе" maxlength="140" cols="48" rows="3"></textarea>
+		</p>
+		<p>
+			<input required maxlength="25" size="25" name="login" placeholder="Логін"><br>
+		</p>
+		<p>
+			<b>Пароль:</b><br>
+			<input required type="password" maxlength="50" size="15" name="password">
+		</p>
+		<p>
+			<strong>Згода на обробку</strong> <b>персональних даних</b>
+			<input type="radio" name="accepted" value="y" required> <span>Так</span>
+			<input type="radio" name="accepted" value="n"> <span>Ні</span>
+		</p>
+		<p>
+		<input type="reset" value="Скинути">
+		<input type="submit" value="Підтвердити">
+		</p>
+	</form>
+</body>
+</html>

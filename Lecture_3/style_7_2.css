@@ -1,0 +1,9 @@
+﻿a {
+	text-decoration: none; /*скидання ефектів*/
+	color: green; /*колір посилання*/
+	font-size: 16pt; /*розмір шришту*/
+	font-family: Arial; /*шришт посилання*/
+}
+a:hover {
+	color: #FBA1A1; /*колір посилання при наведенні*/
+}

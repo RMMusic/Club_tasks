@@ -1,0 +1,14 @@
+﻿div {
+    background-image: url(http://www.whatiamreallydoing.com/wp-content/uploads/2012/02/freelance_programmer_what_i_really_do.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 600px;
+	height: 415px;
+	float: right;
+}
+.a {background-size: 100%; margin:2px}
+.b {background-size: 65%; margin:2px}
+.c {background-size: 50%; margin:2px}
+
+
+
